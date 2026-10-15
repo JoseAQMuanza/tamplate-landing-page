@@ -19,6 +19,7 @@ const siteConfigData = {
     title: 'Mário & Bastos | Advocacia estratégica em Luanda',
     description: 'Assessoria jurídica próxima, estratégica e orientada para resultados reais.',
     keywords: ['advocacia', 'Luanda', 'assessoria jurídica'],
+    favicon: "/icon.svg",
   },
   navigation: [
     { label: 'Áreas de atuação', href: '#servicos' },
@@ -105,6 +106,7 @@ export const siteConfigSchema = z.object({
     title: z.string(),
     description: z.string(),
     keywords: z.array(z.string()),
+    favicon: z.string(),
   }),
   navigation: z.array(z.object({ label: z.string(), href: z.string() })),
   hero: z.object({
