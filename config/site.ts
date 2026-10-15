@@ -32,7 +32,7 @@ const siteConfigData = {
     ctaPrimary: 'Agendar consulta',
     ctaSecondary: 'Falar no WhatsApp',
     imageAlt: 'Fachada contemporânea do escritório Mário & Bastos',
-    backgroundImage: '/images/hero-legal.png',
+    backgroundImage: '/images/hero-legal.webp',
   },
   stats: [
     { value: '15+', label: 'anos de experiência' },
